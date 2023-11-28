@@ -4,7 +4,11 @@ from os import path
 import re
 from setuptools import setup
 
-package_name = "dfcon"
+NAME = "filpy"
+PACKAGES = ["filpy"]
+DESCRIPTION = "PyPi template for MTamon's python projects."
+KEYWORDS = "expand filter(), Filtering, OverlapedFilter, TiledFilter"
+TOPIC = "development"
 
 root_dir = path.abspath(path.dirname(__file__))
 
@@ -27,7 +31,7 @@ def _test_requirements():
     ]
 
 
-with open(path.join(root_dir, package_name, "__init__.py"), encoding="utf-8") as f:
+with open(path.join(root_dir, NAME, "__init__.py"), encoding="utf-8") as f:
     init_text = f.read()
     version = re.search(r"__version__\s*=\s*[\'\"](.+?)[\'\"]", init_text).group(1)
     license_ = re.search(r"__license__\s*=\s*[\'\"](.+?)[\'\"]", init_text).group(1)
@@ -44,17 +48,12 @@ assert author_email
 assert url
 
 
-PACKAGES = ["project"]
-DESCRIPTION = "description"
-KEYWORDS = "keywords1, kyewords2, keywords3, ..."
-TOPIC = "topic"
-
 with open("README.md", encoding="utf-8") as f:
     long_description = f.read()
 
 
 setup(
-    name=package_name,
+    name=NAME,
     packages=PACKAGES,
     version=version,
     license=license_,

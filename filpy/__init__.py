@@ -1,12 +1,12 @@
 """Initialize published package."""
 
-from .src import module1, module2, module3
+from filpy.filters import Filter, OverlapedFilter, TiledFilter, EmpFilter
 
 ############## EDIT THESE INFORMATION ###############
-AUTHOR = "John Smith"
-EMAIL = "john.smith@email.com"
+AUTHOR = "Tamon Mikawa"
+EMAIL = "mtamon.engineering@gmail.com"
 YEAR = "2023"
-GIT_URL = "https://github.com/john-smith/project.git"
+GIT_URL = "https://github.com/MTamon/Filpy.git"
 #####################################################
 
 __copyright__ = f"Copyright (C) {YEAR} {AUTHOR}"
@@ -16,4 +16,4 @@ __author__ = AUTHOR
 __author_email__ = EMAIL
 __url__ = GIT_URL
 
-__all__ = ["module1", "module2", "module3"]
+__all__ = ["Filter", "OverlapedFilter", "TiledFilter", "EmpFilter"]
