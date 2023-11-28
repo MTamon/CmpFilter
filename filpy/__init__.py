@@ -7,13 +7,16 @@ AUTHOR = "Tamon Mikawa"
 EMAIL = "mtamon.engineering@gmail.com"
 YEAR = "2023"
 GIT_URL = "https://github.com/MTamon/Filpy.git"
+VERSION = "0.0.0"
+LICENCE = "MIT License"
 #####################################################
 
+__all__ = ["Filter", "OverlapedFilter", "TiledFilter", "EmpFilter"]
+
+
 __copyright__ = f"Copyright (C) {YEAR} {AUTHOR}"
-__version__ = "0.0.0"
-__license__ = "MIT License"
+__version__ = VERSION
+__license__ = LICENCE
 __author__ = AUTHOR
 __author_email__ = EMAIL
 __url__ = GIT_URL
-
-__all__ = ["Filter", "OverlapedFilter", "TiledFilter", "EmpFilter"]
