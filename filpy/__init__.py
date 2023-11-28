@@ -7,7 +7,7 @@ AUTHOR = "Tamon Mikawa"
 EMAIL = "mtamon.engineering@gmail.com"
 YEAR = "2023"
 GIT_URL = "https://github.com/MTamon/Filpy.git"
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 LICENCE = "MIT License"
 #####################################################
 
