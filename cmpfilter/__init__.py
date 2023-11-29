@@ -1,12 +1,12 @@
 """Initialize published package."""
 
-from pyfilter.filters import Filter, OverlapedFilter, TiledFilter, EmpFilter
+from cmpfilter.filters import Filter, OverlapedFilter, TiledFilter, EmpFilter
 
 ############## EDIT THESE INFORMATION ###############
 AUTHOR = "Tamon Mikawa"
 EMAIL = "mtamon.engineering@gmail.com"
 YEAR = "2023"
-GIT_URL = "https://github.com/MTamon/PyFilter.git"
+GIT_URL = "https://github.com/MTamon/CmpFilter.git"
 VERSION = "0.0.1"
 LICENCE = "MIT License"
 #####################################################

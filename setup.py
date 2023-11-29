@@ -2,10 +2,10 @@
 
 from os import path
 from setuptools import setup
-from pyfilter import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
+from cmpfilter import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
 
-NAME = "pyfilter"
-PACKAGES = ["pyfilter"]
+NAME = "cmpfilter"
+PACKAGES = ["cmpfilter"]
 DESCRIPTION = "expand filter() for addressing more complex task."
 KEYWORDS = "expand filter(), Filtering, OverlapedFilter, TiledFilter"
 
