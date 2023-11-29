@@ -2,13 +2,12 @@
 
 from os import path
 from setuptools import setup
-from filpy import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
+from pyfilter import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
 
-NAME = "filpy"
-PACKAGES = ["filpy"]
-DESCRIPTION = "PyPi template for MTamon's python projects."
+NAME = "pyfilter"
+PACKAGES = ["pyfilter"]
+DESCRIPTION = "expand filter() for addressing more complex task."
 KEYWORDS = "expand filter(), Filtering, OverlapedFilter, TiledFilter"
-TOPIC = "development"
 
 root_dir = path.abspath(path.dirname(__file__))
 
@@ -62,7 +61,6 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
-        f"Topic :: {TOPIC}",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
 )
